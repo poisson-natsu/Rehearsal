@@ -12,9 +12,9 @@
 		538569847C75001593A87164CA18B1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		602E4EFB4A2AE713BE8773AE69A187FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8BA2B8B496986C2F8C12220B542DD74D /* Rehearsal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EE81BC8B20E33610C3964E0649A41 /* Rehearsal-dummy.m */; };
-		99624C6C2859C53B009F9DBC /* PatternCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C692859C53B009F9DBC /* PatternCompatible.swift */; };
-		99624C6D2859C53B009F9DBC /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C6A2859C53B009F9DBC /* Pattern.swift */; };
-		99624C6E2859C53B009F9DBC /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C6B2859C53B009F9DBC /* UITextField+Extension.swift */; };
+		99624C742859D7C4009F9DBC /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C712859D7C4009F9DBC /* UITextField+Extension.swift */; };
+		99624C752859D7C4009F9DBC /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C722859D7C4009F9DBC /* Pattern.swift */; };
+		99624C762859D7C4009F9DBC /* PatternCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99624C732859D7C4009F9DBC /* PatternCompatible.swift */; };
 		B65E07B225361201CC296DF2E15661D2 /* Pods-Rehearsal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189DACED5B5149869FA7A28D0CC3E95B /* Pods-Rehearsal_Tests-dummy.m */; };
 		E32D152D28726854A62F01C6310162B8 /* Pods-Rehearsal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88BB7BEFCEDF5D5DC19E5DD7BBB6E0A /* Pods-Rehearsal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EED3C5CB447C3B0BC2D1658C0287155A /* Pods-Rehearsal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FC3D83CF27F5DA9AAC8A0162154DBC /* Pods-Rehearsal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,9 +59,9 @@
 		8E07C3380E2D140A350B502263D84527 /* Pods-Rehearsal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rehearsal_Tests.modulemap"; sourceTree = "<group>"; };
 		8F778DE04095D7765A3741F784355AA1 /* Pods-Rehearsal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rehearsal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9124760C8EC4A817B5DCB6FF50E1F08A /* Rehearsal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rehearsal-umbrella.h"; sourceTree = "<group>"; };
-		99624C692859C53B009F9DBC /* PatternCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatternCompatible.swift; path = Rehearsal/Classes/PatternCompatible.swift; sourceTree = "<group>"; };
-		99624C6A2859C53B009F9DBC /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Rehearsal/Classes/Pattern.swift; sourceTree = "<group>"; };
-		99624C6B2859C53B009F9DBC /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "Rehearsal/Classes/UITextField+Extension.swift"; sourceTree = "<group>"; };
+		99624C712859D7C4009F9DBC /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "Rehearsal/UITextField+Extension.swift"; sourceTree = "<group>"; };
+		99624C722859D7C4009F9DBC /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Rehearsal/Pattern.swift; sourceTree = "<group>"; };
+		99624C732859D7C4009F9DBC /* PatternCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatternCompatible.swift; path = Rehearsal/PatternCompatible.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E6A59CE5613134911B1965480307C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A67F594AAC09C82DC1E3887DF8403188 /* Rehearsal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rehearsal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,9 +165,9 @@
 		62B977A15D520D04675CCACB1D766F0F /* Rehearsal */ = {
 			isa = PBXGroup;
 			children = (
-				99624C6A2859C53B009F9DBC /* Pattern.swift */,
-				99624C692859C53B009F9DBC /* PatternCompatible.swift */,
-				99624C6B2859C53B009F9DBC /* UITextField+Extension.swift */,
+				99624C722859D7C4009F9DBC /* Pattern.swift */,
+				99624C732859D7C4009F9DBC /* PatternCompatible.swift */,
+				99624C712859D7C4009F9DBC /* UITextField+Extension.swift */,
 				2A122D3B32D6D15551C72B658AACD496 /* Pod */,
 				08C9F91CCB7165F7005C603573F098EE /* Support Files */,
 			);
@@ -386,9 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99624C6D2859C53B009F9DBC /* Pattern.swift in Sources */,
-				99624C6E2859C53B009F9DBC /* UITextField+Extension.swift in Sources */,
-				99624C6C2859C53B009F9DBC /* PatternCompatible.swift in Sources */,
+				99624C752859D7C4009F9DBC /* Pattern.swift in Sources */,
+				99624C742859D7C4009F9DBC /* UITextField+Extension.swift in Sources */,
+				99624C762859D7C4009F9DBC /* PatternCompatible.swift in Sources */,
 				8BA2B8B496986C2F8C12220B542DD74D /* Rehearsal-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

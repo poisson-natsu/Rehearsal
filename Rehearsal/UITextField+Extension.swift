@@ -10,7 +10,7 @@ import UIKit
 public extension Pattern where Base: UITextField {
     
     func setPattern(_ pattern: String, limitCount: Int = -1, changed: ((String) -> Void)?) {
-        NotificationCenter.default.addObserver(forName: NSNotification.Name.UITextFieldTextDidChange, object: base, queue: OperationQueue.current) {[weak base] notif in
+        NotificationCenter.default.addObserver(forName: Base.textDidChangeNotification, object: base, queue: OperationQueue.current) {[weak base] notif in
             base?.limitWithPattern(pattern, limitCount: limitCount, valueChanged: changed)
         }
     }
