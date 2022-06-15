@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Rehearsal'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Rehearsal.Make UITextField easy to use!'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Rehearsal/**/*'
+  s.source_files = 'Rehearsal/*'
   
   # s.resource_bundles = {
   #   'Rehearsal' => ['Rehearsal/Assets/*.png']
