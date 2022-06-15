@@ -1,0 +1,6 @@
+framework module Rehearsal {
+  umbrella header "Rehearsal-umbrella.h"
+
+  export *
+  module * { export * }
+}
