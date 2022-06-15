@@ -1,0 +1,16 @@
+PODS:
+  - Rehearsal (0.1.0)
+
+DEPENDENCIES:
+  - Rehearsal (from `../`)
+
+EXTERNAL SOURCES:
+  Rehearsal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rehearsal: 56f71165f7bdf571c8436a46aa7a6ebf8ceb7948
+
+PODFILE CHECKSUM: 6548c0c352f1a7aa541b3343604ff8b2016e31bb
+
+COCOAPODS: 1.11.2
